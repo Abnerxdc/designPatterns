@@ -1,4 +1,5 @@
 package design.pattern.factory.simple;
 
-public class Calculator {
+public interface Calculator {
+    int count(int first , int second);
 }
